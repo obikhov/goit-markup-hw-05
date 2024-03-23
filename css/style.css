@@ -830,10 +830,10 @@ pointer-events:auto;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal:hover+.modal-button-x{
+.button-icon-modal:hover{
   fill: #ffffff;
 }
-.modal:focus+.modal-button-x{
+.button-icon-modal:focus{
   fill: #ffffff;
 }
 
@@ -956,7 +956,7 @@ border-color:#404BBF;
  .visually-hidden{
  
  }
- .visually-hidden:checked{
+ .visually-hidden:checked+.span-hecboxs-label{
   background-color:#404bbf;
   border: none;
   fill: #F4F4FD;;
