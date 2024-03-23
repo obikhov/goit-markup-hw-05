@@ -432,7 +432,7 @@
 </div>
 </div>
 <div class="modal-input-div">
-<label  class="modal-name">
+<label for="user-phone"  class="modal-name">
 <span>Phone</span>
 </label>
 
@@ -440,16 +440,17 @@
     <input type="text" 
     name="user-tell"
      class="modal-input"
+     id="user-phone" 
      >
 
-    <svg class="modal-icon-input" width="18" height="18">
+    <svg class="modal-icon-input" width="18" height="24">
         <use href="./images/icons.svg#icon-phone-black"></use>
     </svg>
 </div>
 </div>
 
 <div class="modal-input-div">
-<label  class="modal-name">
+<label for="user-email"  class="modal-name">
     <span>Email</span>
    </label>
 
@@ -457,31 +458,31 @@
     <input type="text" 
     name="user-emaill"
      class="modal-input"
+     id="user-email" 
      >
-    <svg class="modal-icon-input" width="18" height="18">
+    <svg class="modal-icon-input" width="18" height="24">
         <use href="./images/icons.svg#icon-Vector-1"></use>
     </svg>
 </div>
 </div>
 
-<div class="modal-input-div">
-<label  class="modal-name">
+<div class="modal-input-div-comennt">
+<label  class="modal-name" for="user-comment">
     <span>Comment</span>
 </label>
+<textarea class="textarea-comment-input" name="user-comment" id="user-comment" cols="30" rows="10" placeholder="Text input"></textarea>
 </div>
-<div >
-   
-     <label for="Comment">
 
-     </label>
-        <textarea class="textarea-comment-input" name="user-comment" id="user-comment" cols="30" rows="10" placeholder="Text input"></textarea>
-   </div>
    <div class="hecboxs-modal-div">
     <input type="checkbox" id="user-privacy" value="true" name="user-privacy" class="visually-hidden">
     <label for="user-privacy" 
     class="label-hecboxs">
         <span class="span-hecboxs-label">
-            I accept the terms and conditions of the</span>
+            I accept the terms and conditions of the 
+        <svg width="10" height="8"> 
+            <use href="./images/icons.svg#icon-Vector-1-1"></use>
+        </svg>
+        </span>
     </label>
 
    </div>
