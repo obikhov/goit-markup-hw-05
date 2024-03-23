@@ -700,6 +700,69 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #f4f4fd;
 }
 
+.footer-label-container{
+  margin-left: 80px;
+
+}
+.paragraf-footer-label{
+  margin-bottom: 16px;
+  max-width: 500px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.form-footer{
+  display: flex;
+  
+
+}
+
+.form-label-footer{
+  gap: 24px;
+}
+
+.input-subscribe-footer{
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2; 
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.placeholder{
+  color: #FFFFFF;
+}
+.button-label-foter{
+  min-width: 165px;
+  height: 40px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+  margin-left: 24px;
+}
+
+.svg-button-footer{
+  margin-left: 16px;
+  fill: #FFFFFF;
+ 
+}
 
 
 /* BAKDROP */
@@ -882,11 +945,24 @@ border-color:#404BBF;
   border: 1px solid rgba(46, 47, 66, 0.4)
  
  }
+ .textarea-comment-input:focus{
+  border-color: #4D5AE5;
+
+ }
+
+
  .hecboxs-modal-div{
   margin-bottom: 24px;
 
  }
- .visually-hidden{}
+ .visually-hidden{
+ 
+ }
+ .visually-hidden:checked{
+  background-color:#404bbf;
+  border: none;
+  fill: #F4F4FD;;
+ }
 
 
  .label-hecboxs{
@@ -894,6 +970,10 @@ border-color:#404BBF;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+ 
+ }
+ .Privacy-Policy-label{
+  color: #4d5ae5;
  }
 
  .span-hecboxs-label{
@@ -907,7 +987,7 @@ border-color:#404BBF;
   align-items: center;
 justify-content: center;
 fill: transparent;
-
+display: flex;
  }
 
 .button-icon-modal-finish{
@@ -916,7 +996,17 @@ fill: transparent;
   width: 169px;
   height: 56px;
   background-color: #404BBF;
-  color: #F4F4FD;
+  color: #ffffff;
+  min-width: 169px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+cursor: pointer;
+background-color: #4D5AE5;
+border: none;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
 }
 .button-icon-modal-finish:hover{
